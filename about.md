@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am Andrew Gambardella, first-year DPhil (PhD) student at Oxford, advised by [Phil Torr](http://www.robots.ox.ac.uk/~tvg/). I am a member of St Catherine's College. I study Deep Learning, Reinforcement Learning, and other things that I believe would be useful on the path to creating an Artificial General Intelligence. 
+  
+During my undergrad years I studied EECS at UC Berkeley, where I was advised by [Satish Rao](https://people.eecs.berkeley.edu/~satishr/).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I have lived in the USA, Japan, and the UK. I speak fluent Japanese and can passively understand Korean and Chinese.
+  
+You can find more information on my [academic website](http://www.google.com).
