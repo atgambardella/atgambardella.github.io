@@ -52,24 +52,24 @@ This is a K-pop song that came out four days ago. If they weren't singing in Kor
 
 I used to think that Japan would be served well by learning more about recent advances in AI, but after having lived and worked there, I think its problems are more basic. What I think Japan needs more than anything else is to learn how to learn, and that begins with learning how to imitate.
 
-==
+<hr>
 
 <div id="ref1">
-In the days when Sussman was a novice, Minsky once came to him as he sat hacking at the PDP-6.
+[1] In the days when Sussman was a novice, Minsky once came to him as he sat hacking at the PDP-6.<p>
 
-"What are you doing?", asked Minsky.
+"What are you doing?", asked Minsky.<p>
 
-"I am training a randomly wired neural net to play Tic-tac-toe", Sussman replied.
+"I am training a randomly wired neural net to play Tic-tac-toe", Sussman replied.<p>
 
-"Why is the net wired randomly?", asked Minsky.
+"Why is the net wired randomly?", asked Minsky.<p>
 
-"I do not want it to have any preconceptions of how to play", Sussman said.
+"I do not want it to have any preconceptions of how to play", Sussman said.<p>
 
-Minsky then shut his eyes.
+Minsky then shut his eyes.<p>
 
-"Why do you close your eyes?" Sussman asked his teacher.
+"Why do you close your eyes?" Sussman asked his teacher.<p>
 
-"So that the room will be empty."
+"So that the room will be empty."<p>
 
 At that moment, Sussman was enlightened.
 </div>
