@@ -23,6 +23,8 @@ github_username:  atgambardella
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
 theme: minima
 gems:
   - jekyll-feed
