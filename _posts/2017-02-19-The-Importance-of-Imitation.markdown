@@ -72,4 +72,4 @@ Minsky then shut his eyes.
 "So that the room will be empty."
 
 At that moment, Sussman was enlightened.
-<div>
+</div>
