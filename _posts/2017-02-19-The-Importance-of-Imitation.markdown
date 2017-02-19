@@ -12,7 +12,7 @@ Today, for my first blogpost, I would like to talk about some topics that have p
 Most people reading this are probably aware of AlphaGo, the Go-playing program based on deep neural networks and reinforcement learning which currently has an ELO (relative skill rating) higher than any human player. A very rough idea of how AlphaGo works is that it first studies many professional games until it has a good idea of where pros will play in certain positions. It then refines the strategy (called a "policy" in reinforcement learning literature) that it learned through a process in which it plays against a slightly weaker version of itself, and then updates its policy based on whether it won or lost, many millions of times. This high level overview, that the best Go program learned first through imitation, then through refinement, is incredibly important.
 
 <div class="imgcap">
-<img src="/assetsa/imitation/alphagopipeline.png">
+<img src="/assets/imitation/alphagopipeline.png">
 <div class="thecap">The AlphaGo pipeline, from Deepmind's paper</div>
 </div>
 
@@ -45,7 +45,7 @@ Even had SoftBank been imitating current research with no research or innovation
 This is a K-pop song that came out four days ago. If they weren't singing in Korean, this could easily be on American radio. Actually, I personally think this song is better than most American pop songs, but I am most likely biased. The point I am trying to make is that while Japan flounders with trial and error, not properly exploring the space of strategies and settling on undesirable local minima, Korea has taken to heart the "imitate and then refine" paradigm, and this has pervaded every aspect of life, from music, to school, to research. And I believe that Korea will benefit greatly from this, while Japan is shooting itself in the foot. At the very least, their music industry is reaping the benefits of having "imitated and refined" American pop.
 
 <div class="imgcap">
-<img src="/assetsa/imitation/someta.png">
+<img src="/assets/imitation/someta.png">
 <div class="thecap">Korean researchers, who have mastered the "imitate and refine" paradigm, learning from other researchers by imitating their imitation learning papers #someta</div>
 </div>
 
