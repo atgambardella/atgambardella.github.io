@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Importance of Imitation"
-date:   2017-02-19 06:44:23 +0000
+date:   2017-02-19 07:51:23 +0000
 categories: jekyll update
 ---
 
@@ -28,7 +28,7 @@ As a side note, is there a machine learning algorithm that can learn like a huma
 
 ### Imitation, Japan, and Korea
 
-Now back to the main topic, imitation. Before coming to Oxford, I lived in Japan for two years. I love Japan very much, but I also have to worry about Japan's future. As many people know, Japan is currently faced with an aging population, and a shortage of children, which could eventually leave the available workforce too small to support the population. The generally proposed solutions are:
+Now back to the main topic, imitation. Before coming to Oxford, I lived in Japan for two years. I love Japan very much, but I also have to worry about Japan's future. As many people know, Japan is currently faced with an aging population and a shortage of children, which could eventually leave the available workforce too small to support the population. The generally proposed solutions are:
 
 1) major reform leading to a better work-life balance, and therefore hopefully more children,
 
@@ -36,9 +36,9 @@ Now back to the main topic, imitation. Before coming to Oxford, I lived in Japan
 
 3) robots
 
-Anyone familiar with Japan knows that the first two options are not likely to happen, so having intelligent robots run the economy and care for the elderly is by far the most attractive option. Indeed, I went to Japan with the intention of helping them create robots, which is the most practical application of reinforcement learning, at least in the near future. But the employees in the company which I had joined, SoftBank Robotics, had skipped the "imitation" step when learning how to create AI. They read no textbooks, no research papers. They were trying to do everything through brute force, hiring tens of people to write long, brittle programs filled with if-statements, hoping to cover every single case. They tried to build a Japanese chatbot in this fashion. When the CTO would demo it to people, he would hand them a list of sentences and say, "Pepper (the robot) can only respond to these sentences. Say one of them." As it turns out, this isn't how conversations work, and just try building a system like this for many different languages. (Nota bene, the CTO also said that machine learning was "an American joke" and that it doesn't exist, but that is a story for another time)
+Anyone familiar with Japan knows that the first two options are not likely to happen, so having intelligent robots run the economy and care for the elderly is by far the most attractive option. Indeed, I went to Japan with the intention of helping them create robots, which is the most practical application of reinforcement learning, at least in the near future. But the employees in the company which I had joined, SoftBank Robotics, had skipped the "imitation" step when learning how to create AI. They read no textbooks, no research papers. They were trying to do everything through brute force, hiring tens of people to write long, brittle programs filled with if-statements, hoping to cover every single case. They had even tried to build a Japanese chatbot in this fashion. When the CTO would demo it to people, he would hand them a list of sentences and say, "Pepper (the robot) can only respond to these sentences. Say one of them." As it turns out, this isn't how conversations work, and just try building a system like this for many different languages. (Nota bene, the CTO also said that machine learning was "an American joke" and that it doesn't exist, but that is a story for another time)
 
-Even had SoftBank been imitating current research with no research or innovation of their own at all, as most companies actually do, they probably would have been able to push out a decent product. So why didn't they do it? Well for one, they couldn't read the research papers. Any paper worth reading is published in English and, well, none of my coworkers could read English very efficiently or accurately. But this problem extends well beyond academia, and lack of English isn't entirely to blame:
+Even had SoftBank simply been imitating current research with no original research or innovation of their own at all, as most companies actually do, they probably would have been able to push out a decent product. So why didn't they do it? Well for one, they couldn't read the research papers. Any paper worth reading is published in English and, well, none of my coworkers could read English very efficiently or accurately. But this problem extends well beyond academia, and lack of English isn't entirely to blame:
 
 <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/41Dp7Q-SM1Y?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
