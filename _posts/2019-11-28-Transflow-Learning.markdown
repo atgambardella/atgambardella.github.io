@@ -53,11 +53,20 @@ The ability to interpolate smoothly in the latent space of a generative model me
 
 Remember when I said we needed to keep the distribution from which we sampled $z$ fixed or else <i>terrible things might happen</i>? This is true to a degree, but what if we also want terrible things to happen? What if we want to sample from a distribution that isn't the same as the one on which we originally trained? As it turns out, we can do that, and we can do that shockingly well.
 
-The method I'm going to handwavingly describe here is known as <a href='put arxiv link here'>Transflow Learning</a>, so named because it <i>tranfers knowledge</i> from a trained <i>flow model</i> (or really any invertible generative model) to new data. The general idea is that if we can find some $z$ corresponding to data that we want new samples to look like, we can find the normal distribution in between our original distribution (from which we could sample arbitrary human faces) and our data, to get the human faces that look like our data.
+The method I'm going to handwavingly describe here is known as <a href='put arxiv link here'>Transflow Learning</a>, so named because it <i>tranfers knowledge</i> from a trained <i>flow model</i> (or really any invertible generative model) to new data. The general idea is that if we can find some $z$ corresponding to data that we want new samples to look like, we can find a new normal distribution in between our original distribution (from which we could sample arbitrary human faces) and our data, to get the human faces that look like our data.
 
 <div class="imgcap">
 <img src="/assets/transflow/gaussians.png">
 <div class="thecap">Given our original flow model (cool colors) and new data (green) we can find a new normal distribution (hot colors) which gives samples in between the distribution on which we originally trained our model, and our new data.</div>
 </div>
 
+This idea is really simple (so simple that just the picture above basically tells you everything you need to know). But it turned out that this simple idea leads to some surprisingly powerful conclusions about generative models and the richness of their latent spaces.
 
+What this method does is simply pick new $z$ and then run it through our generative model, with no changes to the generative model at all. So a natural assumption would be that we would be unable to sample data which looks nothing like the data on which the flow model was originally trained. Shockingly, this wasn't the case at all!
+
+<div class="imgcap">
+<img src="/assets/transflow/obama.png">
+<div class="thecap">Giving images of former (and in my heart, always 💕) President Obama with a large occlusion over his eyes to Transflow Learning gives samples of men with large occlusions over their eyes. The training data looks nothing like these samples!</div>
+</div>
+
+This is the gist of what we've done. For more images (and the admittedly simple math behind it if you're extra daring), please take a look at <a href=''>the full paper</a>!
