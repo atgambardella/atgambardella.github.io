@@ -1,8 +1,10 @@
 ---
 layout: post
+mathjax: true
 title:  "Transflow Learning"
 date:   2019-11-28 07:51:23 +0000
 categories: jekyll update
+
 ---
 
 Generative models are one of the most exciting fields in AI currently, and you can do a lot of cool things with them, such as turning zebras into horses, or painting an image in the style of Van Gogh.
@@ -26,7 +28,7 @@ There are many types of generative models, but in this post I'm going to talk ab
 
 What does invertibility mean in this context? It means we can give our generative model (which, like almost all things in modern AI, is a neural network) an output (in this case, an image) and receive back an input. But our model just creates realistic images out of thin air. What kind of input would it even take?
 
-To understand that we need to step back and understand how neural networks process inputs. Neural networks generally get an output by putting the input through a series of learned, non-linear transformations. These transformations usually take the form $f(x) = g(W*x)$  
+To understand that we need to step back and understand how neural networks process inputs. Neural networks generally get an output by putting the input through a series of learned, non-linear transformations. These transformations usually take the form $f(x) = g(W*x)$
 
 <div class="imgcap">
 <img src="/assets/transflow/magnitude.gif">
