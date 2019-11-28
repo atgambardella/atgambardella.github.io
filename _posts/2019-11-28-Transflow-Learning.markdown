@@ -12,7 +12,7 @@ Generative models are one of the most exciting fields in AI currently. In their 
 
 <div class="imgcap">
 <img src="/assets/transflow/cyclegan.png">
-<div class="thecap">Turning zebras into horses with <a href='https://arxiv.org/abs/1703.10593'>CycleGAN</a></div>
+<div class="thecap">Turning zebras into horses with <a href='https://arxiv.org/abs/1703.10593'>CycleGAN</a>.</div>
 </div>
 
 Today I'm going to talk about work that I've personally done along these lines. The method I'll describe is called <a href='put arxiv link here'>Transflow Learning</a>, and has a wide range of applications, from classifying handwritten digits, to making your waifu real. I'll briefly explain how it works and then get to the results.
@@ -38,17 +38,26 @@ So with an invertible generative model, we can provide our network with an image
 
 ## Properties of Generative Models
 
-Training generative models in this way, with a randomly sampled $z$, often induces very desirable effects into "$z$ space", which is known as the "latent space". One of these desirable effects is the ability to interpolate images, as seen below.
+Training generative models in this way, with a randomly sampled $z$, often induces very desirable effects into "$z$ space," which is known as the "latent space". One of these desirable effects is the ability to interpolate images, as seen below.
 
 <div class="imgcap">
 <img src="/assets/transflow/magnitude.gif">
 <div class="thecap">'Smoothly' transforming a woman into my waifu. Note that the image is hilariously misaligned with the dataset on which the flow model was originally trained.</div>
 </div>
 
-Here we show an interpolation using a flow model trained on human faces. During training the $z$s were sampled from a multivariate (multi-dimensional) normal distribution and here we interpolate from the center of that distribution, the 0 vector, to an image I selected myself. I am only able to do this because I am using a flow model, which is invertible, and therefore I know the $z$ corresponding to the image of this anime character.
+Here I show an interpolation using a flow model trained on human faces. During training the $z$ were sampled from a multivariate (multi-dimensional) normal distribution and here I'm interpolating from the center of that distribution, the 0 vector, to an image I selected myself. I am only able to do this because I am using a flow model, which is invertible, and therefore I know the $z$ corresponding to the image of this anime character.
 
 The ability to interpolate smoothly in the latent space of a generative model means that $z$ which are close to each other correspond to images close to each other, which is another really nice property to have. From the gif above we can see that this even applies for images which are pretty far outside of the training distribution. This is going to come in handy for the next section.
 
 ## Transflow Learning
 
-Remember when I said we needed to keep the distribution from which we sampled $z$ fixed or else <i>terrible things might happen</i>?
+Remember when I said we needed to keep the distribution from which we sampled $z$ fixed or else <i>terrible things might happen</i>? This is true to a degree, but what if we also want terrible things to happen? What if we want to sample from a distribution that isn't the same as the one on which we originally trained? As it turns out, we can do that, and we can do that shockingly well.
+
+The method I'm going to handwavingly describe here is known as <a href='put arxiv link here'>Transflow Learning</a>, so named because it <i>tranfers knowledge</i> from a trained <i>flow model</i> (or really any invertible generative model) to new data. The general idea is that if we can find some $z$ corresponding to data that we want new samples to look like, we can find the normal distribution in between our original distribution (from which we could sample arbitrary human faces) and our data, to get the human faces that look like our data.
+
+<div class="imgcap">
+<img src="/assets/transflow/gaussians.png">
+<div class="thecap">Given our original flow model (cool colors) and new data (green) we can find a new normal distribution (hot colors) which gives samples in between the distribution on which we originally trained our model, and our new data.</div>
+</div>
+
+
