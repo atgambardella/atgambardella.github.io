@@ -15,7 +15,7 @@ Generative models are one of the most exciting fields in AI currently. In their 
 <div class="thecap">Turning zebras into horses with <a href='https://arxiv.org/abs/1703.10593'>CycleGAN</a>.</div>
 </div>
 
-Today I'm going to talk about work that I've personally done along these lines. The method I'll describe is called <a href='put arxiv link here'>Transflow Learning</a>, and has a wide range of applications, from classifying handwritten digits, to making your waifu real. I'll briefly explain how it works and then get to the results.
+Today I'm going to talk about work that I've personally done along these lines. The method I'll describe is called <a href='https://arxiv.org/abs/1911.13270'>Transflow Learning</a>, and has a wide range of applications, from classifying handwritten digits, to making your waifu real. I'll briefly explain how it works and then get to the results.
 
 <div class="imgcap">
 <img src="/assets/transflow/cherrypicked.png">
@@ -28,7 +28,7 @@ There are many types of generative models, but in this post I'm going to talk ab
 
 What does invertibility mean in this context? It means we can give our generative model (which, like almost all things in modern AI, is a neural network) an output (in this case, an image) and receive back an input. But generative models just create realistic images out of thin air. What kind of input would it even take?
 
-To understand that we need to step back and understand how neural networks process inputs. Neural networks generally get an output by putting the input through a series of learned, non-linear transformations. These transformations usually take the form $f(x) = g(W * x)$ where $x$ is our input, $W$ is a learned, real-valued weight matrix, and $g$ some non-linearity like the <a href='https://en.wikipedia.org/wiki/Sigmoid_function'>sigmoid function</a>. The most important thing to note here is that all of our functions are <i>deterministic</i>, that is, no random number generation is invoked at any point in the process. This means that for some given input, we will always get the same output.
+To understand that we need to step back and understand how neural networks process inputs. Neural networks generally get an output by putting the input through a series of learned, non-linear transformations. These transformations usually take the form $f(x) = g(W * x)$ where $x$ is our input, $W$ is a learned, real-valued weight matrix (or in other words, a linear transformation), and $g$ some non-linearity like the <a href='https://en.wikipedia.org/wiki/Sigmoid_function'>sigmoid function</a>. The most important thing to note here is that all of our functions are <i>deterministic</i>, that is, no random number generation is invoked at any point in the process. This means that for some given input, we will always get the same output.
 
 This is an issue because we want to be able to create any and all arbitrary images with our generative model. Can we come up with a way to induce randomness?
 
@@ -53,7 +53,7 @@ The ability to interpolate smoothly in the latent space of a generative model me
 
 Remember when I said we needed to keep the distribution from which we sampled $z$ fixed or else <i>terrible things might happen</i>? This is true to a degree, but what if we also want terrible things to happen? What if we want to sample from a distribution that isn't the same as the one on which we originally trained? As it turns out, we can do that, and we can do that shockingly well.
 
-The method I'm going to handwavingly describe here is known as <a href='put arxiv link here'>Transflow Learning</a>, so named because it <i>tranfers knowledge</i> from a trained <i>flow model</i> (or really any invertible generative model) to new data. The general idea is that if we can find some $z$ corresponding to data that we want new samples to look like, we can find a new normal distribution in between our original distribution (from which we could sample arbitrary human faces) and our data, to get the human faces that look like our data.
+The method I'm going to handwavingly describe here is known as Transflow Learning, so named because it <i>tranfers knowledge</i> from a trained <i>flow model</i> (or really any invertible generative model) to new data. The general idea is that if we can find some $z$ corresponding to data that we want new samples to look like, we can find a new normal distribution in between our original distribution (from which we could sample arbitrary human faces) and our data, to get the human faces that look like our data.
 
 <div class="imgcap">
 <img src="/assets/transflow/gaussians.png">
@@ -66,7 +66,7 @@ What this method does is simply pick new $z$ and then run it through our generat
 
 <div class="imgcap">
 <img src="/assets/transflow/obama.png">
-<div class="thecap">Giving images of former (and in my heart, always 💕) President Obama with a large occlusion over his eyes to Transflow Learning gives samples of men with large occlusions over their eyes. The training data looks nothing like these samples!</div>
+<div class="thecap">Giving images of former (and in my heart, always 💕) President Obama with a large occlusion over his eyes to Transflow Learning results in samples of men with large occlusions over their eyes. The training data looks nothing like these samples!</div>
 </div>
 
-This is the gist of what we've done. For more images (and the admittedly simple math behind it if you're extra daring), please take a look at <a href=''>the full paper</a>!
+This is the gist of what we've done. For more images (and the admittedly simple math behind it if you're extra daring), please take a look at <a href='https://arxiv.org/abs/1911.13270'>the full paper</a>!
