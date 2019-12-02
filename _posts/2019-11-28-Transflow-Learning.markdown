@@ -64,9 +64,6 @@ This idea is really simple (so simple that just the picture above basically tell
 
 What this method does is simply pick new $z$ and then run it through our generative model, with no changes to the generative model at all. So a natural assumption would be that we would be unable to sample data which looks nothing like the data on which the flow model was originally trained. Shockingly, this wasn't the case at all!
 
-<div class="imgcap">
-<img src="/assets/transflow/obama.png">
-<div class="thecap">Giving images of former (and in my heart, always 💕) President Obama with a large occlusion over his eyes to Transflow Learning results in samples of men with large occlusions over their eyes. The training data looks nothing like these samples!</div>
-</div>
+
 
 This is the gist of what we've done. For more images (and the admittedly simple math behind it if you're extra daring), please take a look at <a href='https://arxiv.org/abs/1911.13270'>the full paper</a>!
