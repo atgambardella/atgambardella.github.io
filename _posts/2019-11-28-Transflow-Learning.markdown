@@ -69,4 +69,6 @@ What this method does is simply pick new $z$ and then run it through our generat
 <div class="thecap">Giving images of former (and in my heart, always 💕) President Obama with a large occlusion over his eyes to Transflow Learning results in samples of men with large occlusions over their eyes. The training data looks nothing like these samples!</div>
 </div>
 
+When transforming a probability distribution in the way that we have, using a very powerful tool known as Bayesian inference, we can also use the transformed probabilty distribution to predict things. We show in our paper that we can use Transflow Learning to classify handwritten digits, even using our generative model that was trained on human faces.
+
 This is the gist of what we've done. For more images (and the admittedly simple math behind it if you're extra daring), please take a look at <a href='https://arxiv.org/abs/1911.13270'>the full paper</a>!
