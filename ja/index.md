@@ -5,7 +5,7 @@ lang: ja
 
 ## プロフィール
 
-アンドリュー・ガンバルデッラ（日本名: <ruby>高波<span class="furigana" data-furigana="たかなみ"></span>旭<span class="furigana" data-furigana="あきら"></span></ruby>）と申します。現在は[東京大学松尾研究室](https://weblab.t.u-tokyo.ac.jp/)にて[松尾豊教授](http://ymatsuo.com/)の下で特任研究員としてAIの研究をしています。
+アンドリュー・ガンバルデッラ（日本名: <ruby>高なみ<rt>たかなみ</rt>旭<rt>あきら</rt></ruby>）と申します。現在は[東京大学松尾研究室](https://weblab.t.u-tokyo.ac.jp/)にて[松尾豊教授](http://ymatsuo.com/)の下で特任研究員としてAIの研究をしています。
 
 {% include profile_table.html %}
 
