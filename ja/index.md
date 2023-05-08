@@ -42,4 +42,4 @@ lang: ja
 
 [Twitter](https://twitter.com/atgambardella)
 
-[GitHub](https://github.com/atgambardella).
+[GitHub](https://github.com/atgambardella)
