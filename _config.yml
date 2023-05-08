@@ -18,7 +18,7 @@ title: Andrew Gambardella Blog
 description: "  "
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.atgambardella.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gambsgambs
+twitter_username: bigwaveakira
 github_username:  atgambardella
 
 # Build settings
