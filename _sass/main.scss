@@ -1,19 +1,1 @@
-.furigana {
-  cursor: default;
-  text-decoration: none;
-  line-height: 1;
-  text-align: center;
-  display: inline-block;
-  color: inherit;
-
-  &::before {
-    font-size: 0.70em;
-    font-weight: normal;
-    line-height: 1.2;
-    cursor: pointer;
-    text-decoration: none;
-    display: block;
-    content: attr(data-furigana);
-  }
-}
 
