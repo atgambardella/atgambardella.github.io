@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<header>
-  <nav>
-    <a href="{{ site.baseurl }}/ja">日本語</a>
-  </nav>
-</header>
-
 ## About Me
 
 I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/). I previously spent a year as a postdoctoral researcher at KAIST, and prior to that obtained my DPhil (PhD) in Engineering Science at Oxford, advised by Professor [Phil Torr](http://www.robots.ox.ac.uk/~tvg/).
