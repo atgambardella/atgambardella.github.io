@@ -1,5 +1,5 @@
 title: Andrew Gambardella
-email: '.'.join['atgambardella@weblab', 't', 'u-tokyo', 'ac', 'jp']
+email: atgambardella@weblab.t.u-tokyo.ac.jp
 description: >- # This is a brief description of your website.
   Andrew Gambardella's personal academic website
 baseurl: "" # The subpath of your site, e.g. /blog
