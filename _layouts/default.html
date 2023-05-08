@@ -10,9 +10,9 @@
   <header>
     <nav>
       {% if page.url contains "/ja" %}
-        <a href="{{ site.url }}{{ site.baseurl }}">English</a>
+        <a href="{{ site.baseurl | relative_url }}">English</a>
       {% else %}
-        <a href="{{ site.url }}{{ site.baseurl }}/ja">日本語</a>
+        <a href="{{ site.baseurl | append: '/ja/' | relative_url }}">日本語</a>
       {% endif %}
     </nav>
   </header>
