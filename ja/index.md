@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: ja
 ---
 
 <!-- Add Japanese content here -->
