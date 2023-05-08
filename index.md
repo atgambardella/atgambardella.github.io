@@ -21,13 +21,13 @@ My research interests include:
 ## Publications
 
 ### Journal Articles
-- _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023.
+- _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 ### Theses
-- _Deep Transfer Learning with Bayesian Inference_. **Andrew Gambardella**. DPhil Thesis, 2021.
+- _Deep Transfer Learning with Bayesian Inference_. **Andrew Gambardella**. DPhil Thesis, 2021. [[Oxford University Research Archive](https://ora.ox.ac.uk/objects/uuid:7667850a-5694-4bd7-893f-2e1b5912fb62)]
 
 ### Conference Proceedings
-- _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020.
+- _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020. [[UAI Proceedings](https://proceedings.mlr.press/v124/igl20a.html)] [[arXiv](https://arxiv.org/abs/1904.01033)]
 
 ### Workshops
 - _Detecting and Quantifying Malicious Activity with Simulation-based Inference_. **Andrew Gambardella**, Bogdan State, Naeemullah Khan, Leo Tsourides, Philip H. S. Torr, Atılım Güneş Baydin. In International Conference on Machine Learning: Workshop on Socially Responsible Machine Learning, 2021.
