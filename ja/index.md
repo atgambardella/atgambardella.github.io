@@ -38,4 +38,4 @@ lang: ja
 
 ## 問い合わせ
 
-[メール](mailto:atgambardella@weblab.t.u-tokyo.ac.jp)\t[Twitter](https://twitter.com/atgambardella)\t[GitHub](https://github.com/atgambardella)
+[メール](mailto:atgambardella@weblab.t.u-tokyo.ac.jp)  ・  [Twitter](https://twitter.com/atgambardella)  ・  [GitHub](https://github.com/atgambardella)
