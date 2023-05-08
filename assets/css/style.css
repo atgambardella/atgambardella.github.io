@@ -95,19 +95,12 @@ footer p {
 }
 
 .profile {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.profile dl {
-  width: 50%;
-}
-
-.profile dt {
-  font-weight: bold;
-}
-
-.profile dd {
-  margin-bottom: 1em;
+.profile td {
+  padding: 5px;
+  vertical-align: top;
 }
 
