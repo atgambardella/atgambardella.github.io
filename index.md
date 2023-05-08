@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/). I previously spent a year as a postdoctoral researcher at KAIST, and prior to that obtained my DPhil (PhD) in Engineering Science at Oxford, advised by Professor [Phil Torr](http://www.robots.ox.ac.uk/~tvg/). I research Deep Learning, Reinforcement Learning, and other things that I believe would be useful on the path to creating an Artificial General Intelligence.
+I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/). I previously spent a year as a postdoctoral researcher at KAIST, and prior to that obtained my DPhil (PhD) in Engineering Science at Oxford, advised by Professor [Phil Torr](http://www.robots.ox.ac.uk/~tvg/).
 
 During my undergrad years, I studied EECS at UC Berkeley, where I was advised by [Satish Rao](https://people.eecs.berkeley.edu/~satishr/).
 
@@ -20,7 +20,23 @@ My research interests include:
 
 ## Publications
 
-(To be added)
+### Journal Articles
+- _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023.
+
+### Theses
+- _Deep Transfer Learning with Bayesian Inference_. **Andrew Gambardella**. DPhil Thesis, 2021.
+
+### Conference Proceedings
+- _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020.
+
+### Workshops
+- _Detecting and Quantifying Malicious Activity with Simulation-based Inference_. **Andrew Gambardella**, Bogdan State, Naeemullah Khan, Leo Tsourides, Philip H. S. Torr, Atılım Güneş Baydin. In International Conference on Machine Learning: Workshop on Socially Responsible Machine Learning, 2021.
+- _Hierarchical Semantic Sonification for the Visually Impaired_. **Andrew Gambardella**, Jinjoon Lee. In IJCAI: Workshop on Artificial Intelligence for Social Good, 2021.
+- _Simulation-Based Inference for Global Health Decisions_. Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, **Andrew Gambardella**, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin. In International Conference on Machine Learning Workshop: ML for Global Health, 2020.
+
+### Preprints
+- _Efficient Data Mosaicing with Simulation-based Inference_. **Andrew Gambardella**. In submission, 2023.
+- _Transflow Learning: Few-shot Adaptation for Normalizing Flow Models_. **Andrew Gambardella**, Atılım Güneş Baydin, Philip H. S. Torr. In submission, 2019.
 
 ## Contact
 

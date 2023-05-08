@@ -8,4 +8,4 @@ I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, und
   
 During my undergrad years I studied EECS at UC Berkeley, where I was advised by [Satish Rao](https://people.eecs.berkeley.edu/~satishr/).
 
-I have lived in the USA, Japan, Korea, and the UK. I speak fluent Japanese and less-fluent Korean and Chinese.
+I have lived in the USA, Japan, Korea, and the UK. I speak fluent English and Japanese and less-fluent Korean and Chinese.
