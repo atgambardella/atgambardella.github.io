@@ -93,3 +93,21 @@ footer p {
   top: 10px;
   left: 10px;
 }
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile dl {
+  width: 50%;
+}
+
+.profile dt {
+  font-weight: bold;
+}
+
+.profile dd {
+  margin-bottom: 1em;
+}
+
