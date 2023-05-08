@@ -1,12 +1,11 @@
 <script>
   function switchLanguage() {
     var currentUrl = window.location.href;
-    var baseUrl = "{{ site.url }}{{ site.baseurl }}";
-    var japaneseUrl = "{{ site.url }}{{ site.baseurl }}/ja";
     if (currentUrl.includes("/ja/")) {
-      window.location.href = baseUrl;
+      window.location.href = currentUrl.replace("/ja/", "/");
     } else {
-      window.location.href = japaneseUrl;
+      var newUrl = currentUrl.replace(/\/$/, "") + "/ja/";
+      window.location.href = newUrl;
     }
   }
 </script>
