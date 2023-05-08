@@ -26,6 +26,9 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: absolute;
+  top: 1em;
+  left: 1em;
 }
 
 nav a {

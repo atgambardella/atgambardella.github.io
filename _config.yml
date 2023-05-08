@@ -1,5 +1,5 @@
 title: Andrew Gambardella
-email: your-email@example.com
+email: '.'.join['atgambardella@weblab', 't', 'u-tokyo', 'ac', 'jp']
 description: >- # This is a brief description of your website.
   Andrew Gambardella's personal academic website
 baseurl: "" # The subpath of your site, e.g. /blog
