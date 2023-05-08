@@ -1,4 +1,4 @@
-furigana {
+.furigana {
   cursor: default;
   text-decoration: none;
   line-height: 1;
@@ -16,3 +16,4 @@ furigana {
     content: attr(data-furigana);
   }
 }
+
