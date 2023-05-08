@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav>
-      {% if page.lang == "ja" %}
+      {% if page.url contains "/ja" %}
         <a href="{{ site.baseurl }}">English</a>
       {% else %}
         <a href="{{ site.baseurl }}/ja">日本語</a>
