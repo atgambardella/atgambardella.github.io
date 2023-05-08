@@ -44,4 +44,4 @@ My research interests include:
 
 ## Contact
 
-You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp). You can also find me on [Twitter](https://twitter.com/bigwaveakira) and [GitHub](https://github.com/atgambardella).
+You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp). You can also find me on [Twitter](https://twitter.com/atgambardella) and [GitHub](https://github.com/atgambardella).

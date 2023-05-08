@@ -4,7 +4,7 @@ description: >- # This is a brief description of your website.
   Andrew Gambardella's personal academic website
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site
-twitter_username: bigwaveakira
+twitter_username: atgambardella
 github_username:  atgambardella
 
 languages: ["en", "ja"]
