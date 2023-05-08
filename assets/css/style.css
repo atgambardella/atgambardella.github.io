@@ -62,3 +62,27 @@ footer p {
   margin: 0;
 }
 
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.language-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.language-btn:hover {
+  background-color: #0056b3;
+}
+

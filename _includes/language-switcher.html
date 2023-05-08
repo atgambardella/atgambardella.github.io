@@ -1,19 +1,20 @@
-<script>
-  function switchLanguage() {
-    var currentUrl = window.location.href;
-    if (currentUrl.includes("/ja/")) {
-      window.location.href = currentUrl.replace("/ja/", "/");
-    } else {
-      var newUrl = currentUrl.replace(/\/$/, "") + "/ja/";
-      window.location.href = newUrl;
+<div class="language-switcher">
+  <script>
+    function switchLanguage() {
+      var currentUrl = window.location.href;
+      if (currentUrl.includes("/ja/")) {
+        window.location.href = currentUrl.replace("/ja/", "/");
+      } else {
+        var newUrl = currentUrl.replace(/\/$/, "") + "/ja/";
+        window.location.href = newUrl;
+      }
     }
-  }
-</script>
-<button onclick="switchLanguage()">
-  {% if page.url contains "/ja" %}
-    English
-  {% else %}
-    日本語
-  {% endif %}
-</button>
-
+  </script>
+  <button class="language-btn" onclick="switchLanguage()">
+    {% if page.url contains "/ja" %}
+      English
+    {% else %}
+      日本語
+    {% endif %}
+  </button>
+</div>
