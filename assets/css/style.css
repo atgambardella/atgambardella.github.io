@@ -86,3 +86,10 @@ footer p {
   background-color: #0056b3;
 }
 
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
