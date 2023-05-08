@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.default_lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,11 @@
 <body>
   <header>
     <nav>
-      <a href="{{ site.baseurl }}/">Home</a>
+      {% if page.lang == "ja" %}
+        <a href="{{ site.baseurl }}">English</a>
+      {% else %}
+        <a href="{{ site.baseurl }}/ja">日本語</a>
+      {% endif %}
     </nav>
   </header>
   <main>
