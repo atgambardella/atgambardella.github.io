@@ -10,7 +10,7 @@
   <header>
     <nav>
       {% if page.lang == "ja" %}
-        <a href="{{ site.baseurl }}">English</a>
+        <a href="{{ site.baseurl | relative_url }}">English</a>
       {% else %}
         <a href="{{ site.baseurl }}/ja">日本語</a>
       {% endif %}
