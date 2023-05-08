@@ -1,0 +1,20 @@
+<script>
+  function switchLanguage() {
+    var currentUrl = window.location.href;
+    var baseUrl = "{{ site.url }}{{ site.baseurl }}";
+    var japaneseUrl = "{{ site.url }}{{ site.baseurl }}/ja";
+    if (currentUrl.includes("/ja/")) {
+      window.location.href = baseUrl;
+    } else {
+      window.location.href = japaneseUrl;
+    }
+  }
+</script>
+<button onclick="switchLanguage()">
+  {% if page.url contains "/ja" %}
+    English
+  {% else %}
+    日本語
+  {% endif %}
+</button>
+
