@@ -5,6 +5,8 @@ lang: en
 
 ## About Me
 
+<img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280" style="display:block;margin-left:auto;margin-right:auto;">
+
 I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/).
 
 Prior to joining UTokyo I spent a year as a postdoctoral researcher at KAIST.
