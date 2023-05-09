@@ -114,3 +114,16 @@ footer p {
   min-width: 60%;
 }
 
+.main-content {
+  display: flex;
+}
+
+.about-me-content {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.profile-image {
+  margin-left: 20px;
+  margin-top: 20px;
+}
