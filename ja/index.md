@@ -6,8 +6,6 @@ home: true
 
 アンドリュー・ガンバルデッラ（日本名: <ruby>高波<rt>たかなみ</rt>旭<rt>あきら</rt></ruby>）の個人サイトです。現在は[東京大学松尾研究室](https://weblab.t.u-tokyo.ac.jp/)にて[松尾豊教授](http://ymatsuo.com/)の下で特任研究員としてAIの研究をしています。
 
-{% include profile_table.html %}
-
 ## 研究内容
 
 - 深層学習

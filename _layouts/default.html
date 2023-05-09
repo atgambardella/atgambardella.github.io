@@ -28,6 +28,9 @@
         <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280">
       <div class="text-content" style="padding-right: 10px;">
         {{ page.about-me | markdownify }}
+		{% if page.lang == "ja" %}
+          {% include profile_table.html %}
+        {% endif %}
       </div>
     </div>
   </section>
