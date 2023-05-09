@@ -104,29 +104,17 @@ footer p {
   vertical-align: top;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-content {
-  flex: 1;
-  min-width: 60%;
-}
 
 .about-me-content {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-column-gap: 20px;
-  align-items: flex-start;
+  display: flex;
 }
 
 .text-content {
-  grid-column: 1;
+  flex-grow: 1;
 }
 
 .profile-image {
-  grid-column: 2;
+  margin-left: 20px;
 }
 
 table.profile {
