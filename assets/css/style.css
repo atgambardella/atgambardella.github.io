@@ -114,9 +114,14 @@ footer p {
   min-width: 60%;
 }
 
-.about-me-content {
+.about-me-wrapper {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-me-content {
+  flex: 1;
+  min-width: 50%;
 }
 
 .text-content {
@@ -125,6 +130,7 @@ footer p {
 
 .profile-image {
   margin-top 10px;
+  margin-left: 20px;
 }
 
 table.profile {
