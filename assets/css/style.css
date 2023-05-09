@@ -114,20 +114,19 @@ footer p {
   min-width: 60%;
 }
 
-.about-me-wrapper {
+.about-me-content {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  background-image: url('/assets/images/profile_picture.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 210px 280px;
 }
 
 .text-content {
   flex: 1;
-  padding-right: 20px;
-}
-
-.profile-image {
-  margin-top 10px;
-  margin-left: 20px;
+  padding-right: 230px;
 }
 
 table.profile {
