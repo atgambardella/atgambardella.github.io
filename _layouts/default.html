@@ -23,11 +23,11 @@
     {% else %}
       <h2>About Me</h2>
     {% endif %}
-    <div class="about-me-content">
-      <div class="text-content">
+    <div class="about-me-content" style="position: relative;">
+      <div class="text-content" style="padding-right: 10px;">
         {{ page.about-me | markdownify }}
       </div>
-	  <div class="profile-image">
+	  <div class="profile-image" style="position: absolute; right: 0; top: 20px;">
         <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280">
       </div>
     </div>

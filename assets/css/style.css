@@ -104,20 +104,3 @@ footer p {
   vertical-align: top;
 }
 
-
-.about-me-content {
-  display: flex;
-}
-
-.text-content {
-  flex-grow: 1;
-}
-
-.profile-image {
-  margin-left: 20px;
-}
-
-table.profile {
-  margin-top: 10px;
-}
-
