@@ -125,8 +125,5 @@ footer p {
 }
 
 .profile-image {
-  position: absolute;
-  right: 0;
-  top: 0;
   margin-left: 20px;
 }
