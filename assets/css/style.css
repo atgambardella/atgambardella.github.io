@@ -115,18 +115,18 @@ footer p {
 }
 
 .about-me-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 20px;
   align-items: flex-start;
-  flex-wrap: wrap;
-  background-image: url('/assets/images/profile_picture.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 210px 280px;
 }
 
 .text-content {
-  flex: 1;
-  padding-right: 230px;
+  grid-column: 1;
+}
+
+.profile-image {
+  grid-column: 2;
 }
 
 table.profile {
