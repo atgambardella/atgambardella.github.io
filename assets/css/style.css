@@ -116,6 +116,7 @@ footer p {
 
 .main-content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-me-content {

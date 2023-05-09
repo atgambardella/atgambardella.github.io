@@ -26,9 +26,6 @@
     <div class="main-content">
       <div class="about-me-content">
         {{ page.about-me | markdownify }}
-        {% if page.lang == "ja" %}
-          {% include profile_table.html %}
-        {% endif %}
       </div>
       <div class="profile-image">
         <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280">
@@ -37,6 +34,9 @@
   </section>
 {% endif %}
     {{ content }}
+    {% if page.lang == "ja" %}
+      {% include profile_table.html %}
+    {% endif %}
   </main>
   <footer>
     <p>Copyright © {{ site.time | date: '%Y' }} {{ site.title }}</p>
