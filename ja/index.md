@@ -1,19 +1,14 @@
 ---
 layout: default
 lang: ja
+home: true
 ---
 
 ## プロフィール
 
-<div class="about-me-container">
-<img src="/assets/images/profile_picture.jpg" alt="プロフィール写真" width="210" height="280" style="float:left;margin-right:20px;">
-<p>
-
 アンドリュー・ガンバルデッラ（日本名: <ruby>高波<rt>たかなみ</rt>旭<rt>あきら</rt></ruby>）の個人サイトです。現在は[東京大学松尾研究室](https://weblab.t.u-tokyo.ac.jp/)にて[松尾豊教授](http://ymatsuo.com/)の下で特任研究員としてAIの研究をしています。
 
 {% include profile_table.html %}
-</p>
-</div>
 
 ## 研究内容
 

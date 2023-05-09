@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.default_lang }}">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Andrew Gambardella (高波旭)</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
+
 <body>
   <header>
     <div class="site-title">
@@ -14,6 +16,19 @@
     {% include language-switcher.html %}
   </header>
   <main>
+    {% if page.home %}
+    <section class="about-me">
+      <h2 class="post-list-heading">{{ page.about-me-title | default: "About Me" }}</h2>
+      <div class="about-me-content" style="position: relative;">
+        <div style="float: right; margin-left: 20px;">
+          <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280">
+        </div>
+        <div style="padding-right: 10px;">
+          {{ page.about-me | markdownify }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
     {{ content }}
   </main>
   <footer>
@@ -21,5 +36,6 @@
   </footer>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
+
 </html>
 

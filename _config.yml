@@ -11,4 +11,5 @@ languages: ["en", "ja"]
 default_lang: "en"
 
 theme: minima
-
+kramdown:
+  parse_block_html: true
