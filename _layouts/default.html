@@ -18,6 +18,11 @@
   <main>
     {% if page.home %}
     <section class="about-me">
+	  {% if page.lang == "ja" %}
+      <h2>プロフィール</h2>
+      {% else %}
+      <h2>About Me</h2>
+      {% endif %}
       <div class="about-me-content" style="position: relative;">
         <div style="float: right; margin-left: 20px; margin-top: 50px;">
           <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280">
