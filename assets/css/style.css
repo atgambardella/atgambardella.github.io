@@ -116,12 +116,7 @@ footer p {
 
 .about-me-wrapper {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.about-me-content {
-  flex: 1;
-  min-width: 50%;
+  align-items: flex-start;
 }
 
 .text-content {
