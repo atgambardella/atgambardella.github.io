@@ -5,8 +5,9 @@ lang: en
 
 ## About Me
 
-<div>
+<div class="about-me-container">
 <img src="/assets/images/profile_picture.jpg" alt="Profile Picture" width="210" height="280" style="float:left;margin-right:20px;">
+<p>
 
 I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/).
 
@@ -17,6 +18,7 @@ I obtained my DPhil (PhD) in Engineering Science at Oxford, advised by Professor
 During my undergrad years I studied EECS at UC Berkeley, where my undergraduate research was advised by Professor [Satish Rao](https://people.eecs.berkeley.edu/~satishr/).
 
 I have lived in the USA, Japan, Korea, and the UK. I speak fluent English and Japanese and less-fluent Korean and Chinese.
+</p>
 </div>
 
 ## Research
