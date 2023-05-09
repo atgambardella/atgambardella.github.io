@@ -30,10 +30,6 @@
       <div class="text-content">
         {{ page.about-me | markdownify }}
       </div>
-      {% if page.lang == "ja" %}
-      <div class="profile-table" style="clear: both;">
-        {% include profile_table.html %}
-      </div>
       {% endif %}
     </div>
   </section>
