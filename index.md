@@ -4,7 +4,7 @@ lang: en
 home: true
 ---
 
-I am Andrew Gambardella, postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/).
+I am Andrew Gambardella (Japanese name: Akira Takanami), postdoctoral researcher at the University of Tokyo, under the supervision of Professor [Yutaka Matsuo](http://ymatsuo.com/).
 
 Prior to joining UTokyo I spent a year as a postdoctoral researcher at KAIST.
 
