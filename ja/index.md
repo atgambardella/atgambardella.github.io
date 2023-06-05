@@ -8,6 +8,8 @@ home: true
 
 {% include profile_table.html %}
 
+{% include llm_info.html %}
+
 ## 研究内容
 
 - 深層学習

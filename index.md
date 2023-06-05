@@ -14,6 +14,8 @@ During my undergrad years I studied EECS at UC Berkeley, where my undergraduate 
 
 I have lived in the USA, Japan, Korea, and the UK. I speak fluent English and Japanese and less-fluent Korean and Chinese.
 
+{% include llm_info.html %}
+
 ## Research
 
 My research interests include:
