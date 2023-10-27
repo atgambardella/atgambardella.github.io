@@ -16,7 +16,7 @@ I have lived in the USA, Japan, Korea, and the UK. I speak fluent English and Ja
 
 My full CV can be found [here](https://atgambardella.github.io/assets/Gambardella_CV_September_2023.pdf).
 
-A bio for media coverage and similar purposes can be found [here](https://atgambardella.github.io/assets/bio.txt)
+A bio for media coverage and similar purposes can be found [here](https://atgambardella.github.io/assets/bio.txt).
 
 {% include llm_info.html %}
 
