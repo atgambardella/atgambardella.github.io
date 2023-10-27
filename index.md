@@ -14,7 +14,7 @@ During my undergrad years I studied EECS at UC Berkeley, where my undergraduate 
 
 I have lived in the USA, Japan, Korea, and the UK. I speak fluent English and Japanese and less-fluent Korean and Chinese.
 
-A [bio for media coverage and similar purposes can be found here.](bio.txt)
+My full CV can be found [here](https://atgambardella.github.io/assets/Gambardella_CV_September_2023.pdf).
 
 {% include llm_info.html %}
 
@@ -49,3 +49,4 @@ My research interests include:
 ## Contact
 
 You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp). You can also find me on [Twitter](https://twitter.com/atgambardella) and [GitHub](https://github.com/atgambardella).
+
