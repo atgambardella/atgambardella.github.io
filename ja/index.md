@@ -39,4 +39,6 @@ home: true
 
 ## 問い合わせ
 
-[メール](mailto:atgambardella@weblab.t.u-tokyo.ac.jp)  ・  [Twitter](https://twitter.com/atgambardella)  ・  [GitHub](https://github.com/atgambardella)
+[メール](mailto:atgambardella@weblab.t.u-tokyo.ac.jp)  ・  [GitHub](https://github.com/atgambardella)
+
+若手研究者のためにバーチャルオフィスアワー（３０分のビデ通）を開催しています。ご興味のある方はメールをお願いします。

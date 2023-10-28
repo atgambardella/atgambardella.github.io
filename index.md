@@ -50,5 +50,6 @@ My research interests include:
 
 ## Contact
 
-You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp). You can also find me on [Twitter](https://twitter.com/atgambardella) and [GitHub](https://github.com/atgambardella).
+You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp) and [GitHub](https://github.com/atgambardella).
 
+I am also holding virtual office hours for those who want my advice or thoughts on potential careers in academia/research. Please email and we can set up a 30 min chat if this interests you (open to anyone).
