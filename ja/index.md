@@ -31,7 +31,7 @@ home: true
 - _Simulation-Based Inference for Global Health Decisions_. Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, **Andrew Gambardella**, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin. In International Conference on Machine Learning Workshop: ML for Global Health, 2020. [[arXiv](https://arxiv.org/abs/2005.07062)]
 
 ### プレプリント
-- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. Andrew Gambardella, Yusuke Iwasawa, Yutaka Matsuo. In submission, 2024.
+- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. In submission, 2024.
 - _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. In submission, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)]
 - _Efficient Data Mosaicing with Simulation-based Inference_. **Andrew Gambardella**, Youngjun Choi, Doyo Choi, Jinjoon Lee. In submission, 2023. [[arXiv](https://arxiv.org/abs/2210.14602)]
 - _Transflow Learning: Few-shot Adaptation for Normalizing Flow Models_. **Andrew Gambardella**, Atılım Güneş Baydin, Philip H. S. Torr. In submission, 2019. [[arXiv](https://arxiv.org/abs/1911.13270)]
