@@ -34,6 +34,7 @@ My research interests include:
 - _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 ### Conference Proceedings
+- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2024.
 - _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020. [[UAI Proceedings](https://proceedings.mlr.press/v124/igl20a.html)] [[arXiv](https://arxiv.org/abs/1904.01033)]
 
 ### Workshops
@@ -42,7 +43,6 @@ My research interests include:
 - _Simulation-Based Inference for Global Health Decisions_. Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, **Andrew Gambardella**, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin. In International Conference on Machine Learning Workshop: ML for Global Health, 2020. [[arXiv](https://arxiv.org/abs/2005.07062)]
 
 ### Preprints
-- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. In submission, 2024.
 - _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. In submission, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)]
 - _Efficient Data Mosaicing with Simulation-based Inference_. **Andrew Gambardella**, Youngjun Choi, Doyo Choi, Jinjoon Lee. In submission, 2023. [[arXiv](https://arxiv.org/abs/2210.14602)]
 - _Transflow Learning: Few-shot Adaptation for Normalizing Flow Models_. **Andrew Gambardella**, Atılım Güneş Baydin, Philip H. S. Torr. In submission, 2019. [[arXiv](https://arxiv.org/abs/1911.13270)]
