@@ -34,7 +34,7 @@ My research interests include:
 - _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 ### Conference Proceedings
-- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2024.
+- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2024. [[arXiv](https://arxiv.org/abs/2406.02356)]
 - _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020. [[UAI Proceedings](https://proceedings.mlr.press/v124/igl20a.html)] [[arXiv](https://arxiv.org/abs/1904.01033)]
 
 ### Workshops

@@ -23,7 +23,7 @@ home: true
 
 
 ### 国際会議
-- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2024.
+- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2024. [[arXiv](https://arxiv.org/abs/2406.02356)]
 - _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020. [[UAI Proceedings](https://proceedings.mlr.press/v124/igl20a.html)] [[arXiv](https://arxiv.org/abs/1904.01033)]
 
 ### ワークショップ
