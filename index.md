@@ -56,6 +56,9 @@ My research interests include:
 ### Thesis
 - _Deep Transfer Learning with Bayesian Inference_. **Andrew Gambardella**. DPhil Thesis, 2021. [[Oxford University Research Archive](https://ora.ox.ac.uk/objects/uuid:7667850a-5694-4bd7-893f-2e1b5912fb62)]
 
+### Invited Talks
+- _Achieving Human-centric AI through Research_. At "The Responsibility of Humanity with Regard to AI in the Future", 2024. [[Hosted by 社団法人Privacy by Design Lab](https://privacybydesign.jp/event/1761/)]
+
 ## Contact
 
 You can reach me at [my UTokyo email address](mailto:atgambardella@weblab.t.u-tokyo.ac.jp) and [GitHub](https://github.com/atgambardella).

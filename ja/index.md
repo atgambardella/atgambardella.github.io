@@ -44,6 +44,9 @@ home: true
 ### 博士論文
 - _Deep Transfer Learning with Bayesian Inference_. **Andrew Gambardella**. DPhil Thesis, 2021. [[Oxford University Research Archive](https://ora.ox.ac.uk/objects/uuid:7667850a-5694-4bd7-893f-2e1b5912fb62)]
 
+### 登壇
+- _研究を通じて人間中心のAIへ_. 未来に向けた人間とAIの責任, 2024. [[社団法人Privacy by Design Lab主催](https://privacybydesign.jp/event/1761/)]
+
 ## 問い合わせ
 
 [メール](mailto:atgambardella@weblab.t.u-tokyo.ac.jp)  ・  [GitHub](https://github.com/atgambardella)
