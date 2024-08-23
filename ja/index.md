@@ -19,6 +19,7 @@ home: true
 ## 業績一覧
 
 ### 原著論文
+- _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. Advanced Robotics, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)]
 - _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 
@@ -37,7 +38,6 @@ home: true
 - _Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?_. Fumiya Uchiyama, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In submission, 2024.
 - _Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning_. Shota Takashiro, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In submission, 2024.
 - _Inside Head: Uncertainty Quantification for LLMs based on Internal Discrepancy_. Qi Cao, **Andrew Gambardella**, Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa. In submission, 2024.
-- _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. In submission, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)]
 - _Efficient Data Mosaicing with Simulation-based Inference_. **Andrew Gambardella**, Youngjun Choi, Doyo Choi, Jinjoon Lee. ArXiv Preprint, 2023. [[arXiv](https://arxiv.org/abs/2210.14602)]
 - _Transflow Learning: Few-shot Adaptation for Normalizing Flow Models_. **Andrew Gambardella**, Atılım Güneş Baydin, Philip H. S. Torr. ArXiv Preprint, 2019. [[arXiv](https://arxiv.org/abs/1911.13270)]
 
