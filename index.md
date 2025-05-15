@@ -35,10 +35,10 @@ My research interests include:
 - _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 ### Conference Proceedings
-- _Inconsistent Tokenizations Cause Language Models to be Perplexed by Japanese Grammar_. **Andrew Gambardella**, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo. To appear in ACL, 2025.
-- _Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning_. Shota Takashiro, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. To appear in Findings of the ACL, 2025.
+- _Inconsistent Tokenizations Cause Language Models to be Perplexed by Japanese Grammar_. **Andrew Gambardella**, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025.
+- _Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning_. Shota Takashiro, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In Findings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025.
 - _Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?_. Fumiya Uchiyama, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024.
-- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. ACL, 2024. [[ACL Proceedings](https://aclanthology.org/2024.acl-short.8/)] [[arXiv](https://arxiv.org/abs/2406.02356)]
+- _Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks_. **Andrew Gambardella**, Yusuke Iwasawa, Yutaka Matsuo. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, 2024. [[ACL Proceedings](https://aclanthology.org/2024.acl-short.8/)] [[arXiv](https://arxiv.org/abs/2406.02356)]
 - _Multitask Soft Option Learning_. Maximilian Igl, **Andrew Gambardella**, Nantas Nardelli, N. Siddharth, Wendelin Böhmer, Shimon Whiteson. In Uncertainty in Artificial Intelligence, 2020. [[UAI Proceedings](https://proceedings.mlr.press/v124/igl20a.html)] [[arXiv](https://arxiv.org/abs/1904.01033)]
 
 ### Workshops
