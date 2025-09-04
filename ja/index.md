@@ -19,7 +19,8 @@ home: true
 ## 業績一覧
 
 ### 原著論文
-- _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. Advanced Robotics, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)]
+- _Real-World Robot Applications of Foundation Models: A Review_. Kento Kawaharazuka, Tatsuya Matsushima, **Andrew Gambardella**, Jiaxian Guo, Chris Paxton, Andy Zeng. Advanced Robotics, 2024. [[arXiv](https://arxiv.org/abs/2402.05741)] <b style='color:red;'>(Best Survey Paper Award)</b>
+
 - _gOd, mOther and sOldier: A Story of Oppression, Told Through the Lens of AI_. **Andrew Gambardella**, Meeyung Chung, Doyo Choi, Jinjoon Lee. To Appear in Leonardo, 2023. [[MIT Press Direct](https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02365/114524/gOd-mOther-and-sOldier-A-Story-of-Oppression-Told)]
 
 
