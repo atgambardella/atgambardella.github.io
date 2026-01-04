@@ -25,6 +25,7 @@ home: true
 
 
 ### 国際会議
+- _ Uncertainty Quantification of Language Models through Token Clustering_. Qi Cao, **Andrew Gambardella**, Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa. To appear in The 19th Conference of the European Chapter of the Association for Computational Linguistics, 2026.
 - _Inconsistent Tokenizations Cause Language Models to be Perplexed by Japanese Grammar_. **Andrew Gambardella**, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025. [[arXiv](https://arxiv.org/abs/2505.19599)]
 - _Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning_. Shota Takashiro, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In Findings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025.
 - _Which Programming Language and What Features at Pre-training Stage Affect Downstream Logical Inference Performance?_. Fumiya Uchiyama, Takeshi Kojima, **Andrew Gambardella**, Qi Cao, Yusuke Iwasawa, Yutaka Matsuo. In The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024.
